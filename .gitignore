@@ -1,0 +1,70 @@
+# Prerequisites
+*.d
+
+# Compiled Object files
+*.slo
+*.lo
+*.o
+*.obj
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Fortran module files
+*.mod
+*.smod
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+*.lib
+
+# Executables
+*.exe
+*.out
+*.app
+*.ppm
+
+# Debug files
+*.pdb
+*.ilk
+*.dSYM/
+
+# Build Folders (keep empty folders with .gitkeep)
+build/
+bin/
+obj/
+Debug/
+x64/
+
+# Visual Studio specific
+*.user
+*.aps
+*.vs/
+*.vshost.*
+*.suo
+*.opensdf
+*.sdf
+*.opendb
+*.VC.db
+*.VC.VC.opendb
+
+# Visual Studio Code
+.vscode/
+
+# Optional: Exclude the configuration file if you have sensitive data
+# config.json
+
+# Mac specific (if you're using a Mac)
+.DS_Store
+
+# Backup files
+*~
+*.bak
