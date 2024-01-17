@@ -2,6 +2,7 @@
 #include "vec3.h"
 #include "ray.h"
 #include <fstream>
+#include <cstdio>
 
 color ray_color(const ray& r)
 {
@@ -40,6 +41,11 @@ int main()
 
 
 	// Render
+	if(std::ifstream("image.ppm"))
+	{
+		std::remove("image.ppm");
+	}
+
 	std::ofstream out("image.ppm");
 
 	if(!out)
